@@ -1,24 +1,15 @@
+ 
 {
-"expenses" :[
-  { "title" : "Party",
-    "amount" : "1000",
-    "note" : "BIrthday",
-    "date" : "30-01-2020"
-  },
-  { "title" : "Pooja",
-    "amount" : "2500",
-    "note" : "Pooja",
-    "date" : "30-01-2010"
-  },
-  { "title" : "Trip",
-    "amount" : "4000",
-    "note" : "Jaipur",
-    "date" : "30-06-2020"
-  },
-  { "title" : "ullu",
-    "amount" : "10030",
-    "note" : "pallu",
-    "date" : "3-01-2020"
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
 }
